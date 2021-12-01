@@ -520,6 +520,27 @@ router.get('/download/instagram', async (req, res, next) => {
   res.sendFile(__path + '/docs/403.html')
 }
 })
+router.get('/download/igstory', async (req, res, next) => {
+          var apikey = req.query.apikey
+          var url = req.query.username
+       	if(!apikey) return res.sendFile(__path + '/docs/403.html')
+       if (!url) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter username"})
+        if(listkey.includes(apikey)){
+       aexm.igstory(url)
+	.then(data => {
+		var result = data;
+		res.json({
+			result
+		})
+		})
+         .catch(e => {
+         	console.log(e);
+         	res.sendFile(__path + '/docs/503.html')
+})
+} else {
+  res.sendFile(__path + '/docs/403.html')
+}
+})
 router.get('/download/pinterest', async (req, res, next) => {
           var apikey = req.query.apikey
           var url = req.query.q
@@ -1986,31 +2007,6 @@ router.get('/anime/samehadaku_genre', async (req, res, next) => {
        if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter query"})      
          if(listkey.includes(apikey)){
        fetch(encodeURI(`https://arnz-samehadaku.herokuapp.com/genre/${text}`))
-        .then(response => response.json())
-        .then(data => {
-        var data = data;
-             res.json({
-             	data,
-             	message: `Ok`,
-             	status: `Success`,
-             	maintanied_by: `${creator}`
-             })
-         })
-         .catch(e => {
-         	console.log(e);
-         	res.sendFile(__path + '/docs/503.html')
-})
-} else {
-  res.sendFile(__path + '/docs/403.html')
-}
-})
-router.get('/anime/samehadaku_page', async (req, res, next) => {
-          var apikey = req.query.apikey
-       	var text = req.query.page
-       	if(!apikey) return res.sendFile(__path + '/docs/403.html')
-       if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter page"})      
-         if(listkey.includes(apikey)){
-       fetch(encodeURI(`https://arnz-samehadaku.herokuapp.com/page/${text}`))
         .then(response => response.json())
         .then(data => {
         var data = data;
