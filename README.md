@@ -1,67 +1,58 @@
-<div align="center">
- 
-# Source Codes - TOBI REST APIs
+# ```Alphabot-Api```
 <p align="center">
-<a href="#"><img title="TOBI APIs" src="https://img.shields.io/badge/TOBI APIs-blue?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="https://github.com/zeeoneofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/zeeoneofc?color=red&style=flat-square"></a>
+<a href="https://github.com/zeeoneofc/api-zeeoneofc/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/zeeoneofc/api-zeeoneofc?color=blue&style=flat-square"></a>
+<a href="https://github.com/zeeoneofc/api-zeeoneofc/network/members"><img title="Forks" src="https://img.shields.io/github/forks/zeeoneofc/api-zeeoneofc?color=red&style=flat-square"></a>
+<a href="https://github.com/zeeoneofc/api-zeeoneofc/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/zeeoneofc/api-zeeoneofc?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/zeeoneofc/Rest-api-alphabot"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+<a href="https://github.com/zeeoneofc/Rest-api-alphabot/"><img title="Size" src="https://img.shields.io/github/repo-size/zeeoneofc/Rest-api-alphabot?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzeeoneofc%2FRest-api-alphabot&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/zeeoneofc/Rest-api-alphabot/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
-<p align="center">
-<a href="https://github.com/ekadanuarta"><img title="Author" src="https://img.shields.io/badge/Author-DANU GANS-orange.svg?style=for-the-badge&logo=github"></a>
-</p>
-
 <p align='center'>
-   <a href="https://wa.me/380944292908?text=assalamualaikum"><img height="30" src="https://c.top4top.io/p_1837yybbf0.jpeg"></a>&nbsp;&nbsp;
-   <a href="https://instagram.com/ekagans_02"><img height="30" src="https://raw.githubusercontent.com/TobyG74/TobyG74/main/instagram.jpg"></a>
-</P>
+    </p>
+
+-------
+<h1 align="center">assalamu'alaikum <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="40px" alt="hi"><br>I'm zeeone 😇 </h1>
+<p align="center">
+  <img src="https://c.top4top.io/p_2069qnvob1.jpg" /></>
+</p>
+
+- 👼 My name is Zeeone 
+- 🗣️ I am 17 years old 
+- 🔭 I am not programmer
+
+## ```Connect with me```
+<p align="center">
+  <a href="https://instagram.com/zeeoneofc"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://wa.me/message/JBGU4J2DVYEDK1"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://www.facebook.com/profile.php?id=100015526687857"><img src="https://img.shields.io/badge/Facebook-%234267B2.svg?&style=for-the-badge&logo=facebook&logoColor=white" />
+  <a href="https://t.me/zeeoneee"><img src="https://img.shields.io/badge/Telegram-%230088cc.svg?&style=for-the-badge&logo=telegram&logoColor=white" /> <br>
+  <a href="https://github.com/zeeoneofc"><img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" /> 
+  <a href="https://youtube.com/channel/UCdzWwbApjkyODby7_MoRYlA"><img src="https://img.shields.io/youtube/channel/subscribers/UCdzWwbApjkyODby7_MoRYlA?style=social" /> <br>
+  <a href="https://komarev.com/ghpvc/?username=zeeoneofc&color=blue&style=flat-square&label=Profile+Dilihat"><img src="https://komarev.com/ghpvc/?username=zeeoneofc&color=blue&style=flat-square&label=Profile+Dilihat" />
+
+</p>
+
+## ```How to install```
+
+[`Click Here For Tutorial`](https://youtu.be/POjBjZx9tvY)<br>
+
+<p align="center">
+  <a href="https://youtu.be/POjBjZx9tvY"><img src="https://f.top4top.io/p_207542cfh1.jpg" />
+</p>
 
 
-# Deploy Heroku
 
-Go to [Heroku](https://heroku.com) and Login
+## ```coffee ☕```
 
-Create New App ( App Name For Example : tes-api)
+- [`SAWERIA`](https://saweria.co/zeeoneofc)
 
-<img src="https://i.postimg.cc/Z5T8Btw2/newapp.png" width="300">
+## ```Thnaks To```
 
-Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-
-Open `CMD` and Login Heroku
-
-```cmd
-
-> heroku login
-
-```
-
-Initialize a git repository in a new or existing directory
-
-```cmd
-
-> cd isonemydo
-
-> git init
-
-```
-
-Remote Your App, Use `heroku git:remote -a app-name`
-
-```cmd
-
-> heroku git:remote -a tes-api
-
-```
-
-Commit your code to the repository and deploy it to Heroku using Git.
-
-```cmd
-
-> git add .
-
-> git commit -am "make it better"
-
-> git push heroku master
-
-```
-
-Log Success
-
-<img src="https://i.postimg.cc/j5bzy0NP/deploy.png" width="300">
+- [`Zahir`]()
+- [`Eka`]()
+- [`Loli Killer`]()
+- [`Rynz`]()
+- [`Creative Team`]()
+- [`ZeeoneOfc`]()
